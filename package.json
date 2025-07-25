@@ -1,0 +1,27 @@
+{
+  "name": "test_action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnombrefilis/test_action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnombrefilis/test_action/issues"
+  },
+  "homepage": "https://github.com/elnombrefilis/test_action#readme",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
