@@ -27558,6 +27558,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(7484);
 try {
     const name = core.getInput('name');
+    const secrets = core.getInput('secrets');
     console.log(`Hello ${name}!`);
     console.log(`Your secret is ${secrets}!`)
 } catch (error) {
